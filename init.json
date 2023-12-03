@@ -42,12 +42,136 @@
             "age": 1,
             "size": "Medium",
             "status": "Available",
-            "description": "A cat.",
-            "medical_history": "Healthy.",
-            "behavior": "Naughty.",
-            "needs": "None",
+            "description": "BeiBei is a playful and affectionate cat, often found chasing after toys or curling up for a cozy nap. She enjoys exploring her surroundings and meeting new people, showing a curious and friendly nature. BeiBei has a soft, sleek black coat with mesmerizing green eyes, making her quite the charmer among feline enthusiasts.",
+            "medical_history": "BeiBei has been consistently healthy, maintaining a balanced diet and receiving regular veterinary check-ups. She's up-to-date on vaccinations and has no known medical issues. She has been spayed and is in excellent physical condition, ensuring a happy and active lifestyle.",
+            "behavior": "While BeiBei has a mischievous side and loves to play, she also appreciates moments of calm and relaxation. She's known for her occasional bursts of energy, chasing toys around the house, and then settling down for a snuggle. She's social and enjoys interacting with humans and other pets, making her an ideal companion for someone looking for an engaging feline friend.",
+            "needs": "BeiBei thrives in an environment that provides her with interactive toys, scratching posts, and cozy spots for lounging. She benefits from regular playtime and mental stimulation, making her an ideal addition to a loving home that can offer her both affection and engagement.",
             "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390477858734221/3f0d721ce3b7de169a9781c35487d4fe.jpg?ex=65347cd8&is=652207d8&hm=f0963275f0f004d271b713571c2e21e8e57b8a64f10557df77ff3f5212b0d0cb&",
             "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1180738792961867836/IMG_9114.jpg?ex=657e83b1&is=656c0eb1&hm=9e89cafe5899c9494ae4a55ce0a32edd6a40bac5ff6b3a02ec287966084ed2a1&"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 2,
+        "fields": {
+            "shelter": 2,
+            "name": "Fluffy",
+            "type": "Dog",
+            "age": 3,
+            "size": "Medium",
+            "status": "Available",
+            "description": "This is Fluffy, a lovely dog.",
+            "medical_history": "Up-to-date on vaccinations and healthy.",
+            "behavior": "Fluffy is friendly and enjoys playing.",
+            "needs": "Requires love, care, and attention.",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390475488960662/IMG_8724.jpg?ex=65347cd8&is=652207d8&hm=c1e21b24fcf89c258d919a21f8c5829196bea02c643ff44e4b9d12c4c2e1cf62&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1160390475488960662/IMG_8724.jpg?ex=65347cd8&is=652207d8&hm=c1e21b24fcf89c258d919a21f8c5829196bea02c643ff44e4b9d12c4c2e1cf62&"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 3,
+        "fields": {
+            "shelter": 1,
+            "name": "Max",
+            "type": "Dog",
+            "age": 2,
+            "size": "Large",
+            "status": "Waitlisted",
+            "description": "This is Max, a lovely dog.",
+            "medical_history": "Up-to-date on vaccinations and healthy.",
+            "behavior": "Max is friendly and enjoys playing.",
+            "needs": "Requires love, care, and attention.",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476130689095/IMG_8722.jpg?ex=65347cd8&is=652207d8&hm=6a4992ee1ba32e2360dbab0282295d47940def70db78c40e3c7fa67de54b96bf&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476130689095/IMG_8722.jpg?ex=65347cd8&is=652207d8&hm=6a4992ee1ba32e2360dbab0282295d47940def70db78c40e3c7fa67de54b96bf&"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 4,
+        "fields": {
+            "shelter": 1,
+            "name": "Buddy",
+            "type": "Dog",
+            "age": 1,
+            "size": "Small",
+            "status": "Waitlisted",
+            "description": "This is Buddy, a lovely dog.",
+            "medical_history": "Up-to-date on vaccinations and healthy.",
+            "behavior": "Buddy is friendly and enjoys playing.",
+            "needs": "Requires love, care, and attention.",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476441059421/IMG_8721.jpg?ex=65347cd8&is=652207d8&hm=9e0100c23261f61c7c79c0c5b24b6d069a373f425944c70f2ffd244443951909&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476441059421/IMG_8721.jpg?ex=65347cd8&is=652207d8&hm=9e0100c23261f61c7c79c0c5b24b6d069a373f425944c70f2ffd244443951909&"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 5,
+        "fields": {
+            "shelter": 2,
+            "name": "Charlie",
+            "type": "Dog",
+            "age": 4,
+            "size": "Medium",
+            "status": "Adopted",
+            "description": "This is Charlie, a lovely dog.",
+            "medical_history": "Up-to-date on vaccinations and healthy.",
+            "behavior": "Charlie is friendly and enjoys playing.",
+            "needs": "Requires love, care, and attention.",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476705316924/IMG_8720.jpg?ex=65347cd8&is=652207d8&hm=d7a3305b49cb96f731540b8667394f185056a529a25af182e8b4d9f22ef96bfd&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1160390476705316924/IMG_8720.jpg?ex=65347cd8&is=652207d8&hm=d7a3305b49cb96f731540b8667394f185056a529a25af182e8b4d9f22ef96bfd&"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 6,
+        "fields": {
+            "shelter": 1,
+            "name": "Lucy",
+            "type": "Dog",
+            "age": 2,
+            "size": "Small",
+            "status": "Available",
+            "description": "This is Lucy, a lovely dog.",
+            "medical_history": "Up-to-date on vaccinations and healthy.",
+            "behavior": "Lucy is friendly and enjoys playing.",
+            "needs": "Requires love, care, and attention.",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160394707487166615/IMG_8725.jpg?ex=653480c9&is=65220bc9&hm=238ba50bcd4b74cef0e49b07203fc1801b67551e0e0454bf0fa9d7e7ca56e19d&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1160394707487166615/IMG_8725.jpg?ex=653480c9&is=65220bc9&hm=238ba50bcd4b74cef0e49b07203fc1801b67551e0e0454bf0fa9d7e7ca56e19d&"
+        }
+    },
+    {
+        "model": "application.application",
+        "pk": 1,
+        "fields": {
+            "seeker": 3,
+            "pet": 1,
+            "shelter": 1,
+            "answer_1": "Currently, I share my home with two furry companions. Luna, a delightful Border Collie mix, is six years old and thrives on long walks. Alongside her is Milo, an adventurous tabby cat who just turned two. Milo's playful antics always keep the house lively. Both Luna and Milo have become integral parts of our family, offering endless joy and companionship.",
+            "answer_2": "Preparing for a new pet has been an enlightening journey. Extensive research into pet care, behavior, and specific breed needs has equipped me with valuable insights. I've made necessary adjustments to my living space, ensuring a safe and comfortable environment for the potential newcomer. From acquiring essentials like a cozy bed and suitable toys to familiarizing myself with local vets and grooming services, I've taken proactive steps to ensure a seamless transition and a loving home for my future pet.",
+            "answer_3": "Regrettably, circumstances beyond my control necessitated the surrender of my previous pet, Max, to a shelter. Several years ago, a sudden relocation due to a job opportunity emerged, coupled with housing restrictions that didn't permit pets. Devastating as it was, finding Max a caring shelter was the only viable option at that challenging juncture. It was a heart-wrenching decision, and I ensured Max was placed in a reputable shelter where he'd receive the attention and care he deserved.",
+            "created_at": "2023-12-01T18:35:51+0000",
+            "updated_at": "2023-12-01T18:35:51+0000"
+        }
+    },
+    {
+        "model": "application.message",
+        "pk": 1,
+        "fields": {
+            "application": 1,
+            "sender": 3,
+            "message": "Hi, how are you? I would like to check in on my application for BeiBei.",
+            "time": "2023-12-03T11:19:51+0000"
+        }
+    },
+    {
+        "model": "application.message",
+        "pk": 2,
+        "fields": {
+            "application": 1,
+            "sender": 1,
+            "message": "I'm good thanks. Your application is currently still under review.",
+            "time": "2023-12-03T11:56:39+0000"
         }
     }
 ]

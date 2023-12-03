@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'apps.account',
     'apps.pet',
     'apps.application',
+    'apps.review',
+    'apps.notification',
 ]
 
 MIDDLEWARE = [

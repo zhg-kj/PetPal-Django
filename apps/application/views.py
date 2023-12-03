@@ -26,6 +26,9 @@ class ApplicationListView(generics.ListAPIView):
 
     def get_queryset(self):
         user = self.request.user
+        application_id = self.request.query_params.get('application_id', None)
+        if application_id:
+            return Application.objects.filter(id=application_id)
         return Application.objects.filter(seeker=user) | Application.objects.filter(shelter=user)
 
 

@@ -22,4 +22,6 @@ urlpatterns = [
     path('account/', include('apps.account.urls')),
     path('pet/', include('apps.pet.urls')),
     path('application/', include('apps.application.urls')),
+    path('review/', include('apps.review.urls')),
+    path('notification/', include('apps.notification.urls')),
 ]
