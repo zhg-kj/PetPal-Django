@@ -1,0 +1,53 @@
+[
+    {
+        "model": "account.customuser",
+        "pk": 1,
+        "fields": {
+            "username": "silver_star",
+            "password": "pbkdf2_sha256$600000$P9DjhjDG1pj9mifrHa7B11$iY08WKfxTJkxeWDQiC04Vj1f90mbz6cp258b0WkIrcc=",
+            "name": "Silver Star Animal Shelter",
+            "is_seeker": false,
+            "bio": "Welcome to our animal shelter, where we are dedicated to making a positive difference in the lives of animals in need.\n\nAt our shelter, we provide a safe and loving environment for homeless and abandoned animals. We believe in the power of compassion, and we work tirelessly to rescue, rehabilitate, and rehome animals, giving them a second chance at a happy and fulfilling life.\n\nOur team of dedicated staff and volunteers is committed to providing the best care possible for our furry residents. With your support, we continue to be a beacon of hope for animals, offering them a brighter future filled with love and care. Join us in our mission to make a lasting impact on the lives of these wonderful creatures. Together, we can make a difference!"
+        }
+    },
+    {
+        "model": "account.customuser",
+        "pk": 2,
+        "fields": {
+            "username": "green_hill",
+            "password": "pbkdf2_sha256$600000$P9DjhjDG1pj9mifrHa7B11$iY08WKfxTJkxeWDQiC04Vj1f90mbz6cp258b0WkIrcc=",
+            "name": "Green Hill Animal Shelter",
+            "is_seeker": false,
+            "bio": "Welcome to our animal shelter, where we are dedicated to making a positive difference in the lives of animals in need.\n\nAt our shelter, we provide a safe and loving environment for homeless and abandoned animals. We believe in the power of compassion, and we work tirelessly to rescue, rehabilitate, and rehome animals, giving them a second chance at a happy and fulfilling life.\n\nOur team of dedicated staff and volunteers is committed to providing the best care possible for our furry residents. With your support, we continue to be a beacon of hope for animals, offering them a brighter future filled with love and care. Join us in our mission to make a lasting impact on the lives of these wonderful creatures. Together, we can make a difference!"
+        }
+    },
+    {
+        "model": "account.customuser",
+        "pk": 3,
+        "fields": {
+            "username": "pet_lover",
+            "password": "pbkdf2_sha256$600000$P9DjhjDG1pj9mifrHa7B11$iY08WKfxTJkxeWDQiC04Vj1f90mbz6cp258b0WkIrcc=",
+            "name": "John Doe",
+            "is_seeker": true,
+            "bio": "I really like pets!"
+        }
+    },
+    {
+        "model": "pet.pet",
+        "pk": 1,
+        "fields": {
+            "shelter": 1,
+            "name": "BeiBei",
+            "type": "Cat",
+            "age": 1,
+            "size": "Medium",
+            "status": "Available",
+            "description": "A cat.",
+            "medical_history": "Healthy.",
+            "behavior": "Naughty.",
+            "needs": "None",
+            "image1": "https://cdn.discordapp.com/attachments/861479282915803137/1160390477858734221/3f0d721ce3b7de169a9781c35487d4fe.jpg?ex=65347cd8&is=652207d8&hm=f0963275f0f004d271b713571c2e21e8e57b8a64f10557df77ff3f5212b0d0cb&",
+            "image2": "https://cdn.discordapp.com/attachments/861479282915803137/1180738792961867836/IMG_9114.jpg?ex=657e83b1&is=656c0eb1&hm=9e89cafe5899c9494ae4a55ce0a32edd6a40bac5ff6b3a02ec287966084ed2a1&"
+        }
+    }
+]
