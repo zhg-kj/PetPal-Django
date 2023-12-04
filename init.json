@@ -173,5 +173,68 @@
             "message": "I'm good thanks. Your application is currently still under review.",
             "time": "2023-12-03T11:56:39+0000"
         }
+    },
+    {
+        "model": "notification.notification",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "message": "New message in application for BeiBei",
+            "model_type": "Application",
+            "model_id": 1,
+            "time": "2023-12-03T11:19:51+0000",
+            "read": true
+        }
+    },
+    {
+        "model": "notification.notification",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "message": "New message in application for BeiBei",
+            "model_type": "Application",
+            "model_id": 1,
+            "time": "2023-12-03T11:56:39+0000",
+            "read": false
+        }
+    },
+    {
+        "model": "review.review",
+        "pk": 1,
+        "fields": {
+            "reviewer": 3,
+            "shelter": 1,
+            "rating": 4,
+            "message": "My experience with Silver Star Animal Shelter has been nothing short of incredible. From the moment I stepped in, I felt the warmth and dedication of the staff towards their furry residents. The level of care and compassion they exhibit towards the animals is truly commendable.\n\nThe facility itself is clean, well-maintained, and designed to ensure the comfort of the animals. What truly sets this shelter apart is the dedication of the team. They take the time to understand each animal's needs, providing personalized care and attention.",
+            "created_at": "2023-12-04T03:02:21+0000"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "shelter": 1,
+            "message": "At Silver Star Animal Shelter, we understand the profound bond between pets and their owners. Caring for a pet goes beyond cuddles and play; it requires commitment and responsibility. Begin by choosing the right pet that aligns with your lifestyle, ensuring a harmonious match. Once home, create a safe environment with cozy bedding, nutritious meals, and plenty of water. Regular exercise and mental stimulation are crucial, tailored to your pet's needs. Schedule vet check-ups, stay current on vaccinations, and maintain grooming and hygiene for their well-being. Training with positive reinforcement and socialization foster a happy, well-adjusted pet. Ultimately, shower your furry companion with love, attention, and companionship—nothing beats the joy of a content, cared-for pet.\n\nAt Silver Star Animal Shelter, our mission is to find loving homes for pets in need. If you're ready to make a difference in a pet's life, visit us today and discover your perfect match. Together, let's ensure every pet receives the care and love they deserve.",
+            "created_at": "2023-09-11T09:08:21+0000"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "shelter": 1,
+            "message": "Cats are exceptional companions, bringing joy and countless benefits to our lives. Their independent nature coexists beautifully with their affectionate and loyal personalities. These elegant creatures offer a unique blend of companionship and low-maintenance care, making them ideal for various lifestyles. Their calming presence and soothing purrs have been linked to reduced stress levels and improved mental health. Cats are also adept at providing comfort, offering solace during challenging times. Their playful antics and curious nature add a delightful charm to any household, creating cherished moments and fostering a sense of joy. With their self-sufficiency, grace, and unwavering affection, cats undoubtedly make wonderful, enriching pets for individuals and families alike.",
+            "created_at": "2023-11-10T03:15:21+0000"
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 1,
+        "fields": {
+            "user": 3,
+            "post": 1,
+            "message": "Very insightful!",
+            "created_at": "2023-11-18T10:04:21+0000"
+        }
     }
 ]

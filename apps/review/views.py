@@ -11,7 +11,6 @@ class ReviewCreateView(generics.CreateAPIView):
 
 class ReviewListView(generics.ListAPIView):
     serializer_class = ReviewSerializer
-    permission_classes = (IsAuthenticated,)
 
     def get_queryset(self):
         shelter_id = self.request.query_params.get('shelter_id')

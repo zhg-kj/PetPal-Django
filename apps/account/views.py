@@ -40,8 +40,6 @@ class TokenRefreshView(APIView):
 
 
 class UserDetailsView(APIView):
-    permission_classes = (IsAuthenticated,)
-
     def get(self, request):
         user_id = request.query_params.get('user_id', None)
 
