@@ -28,5 +28,5 @@ class Pet(models.Model):
     medical_history = models.TextField()
     behavior = models.TextField()
     needs = models.TextField()
-    image1 = models.URLField()
-    image2 = models.URLField()
+    image1 = models.URLField(max_length=500)
+    image2 = models.URLField(max_length=500)
