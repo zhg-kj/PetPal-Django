@@ -155,6 +155,20 @@
         }
     },
     {
+        "model": "application.application",
+        "pk": 2,
+        "fields": {
+            "seeker": 3,
+            "pet": 3,
+            "shelter": 1,
+            "answer_1": "Currently, I share my home with two furry companions. Luna, a delightful Border Collie mix, is six years old and thrives on long walks. Alongside her is Milo, an adventurous tabby cat who just turned two. Milo's playful antics always keep the house lively. Both Luna and Milo have become integral parts of our family, offering endless joy and companionship.",
+            "answer_2": "Preparing for a new pet has been an enlightening journey. Extensive research into pet care, behavior, and specific breed needs has equipped me with valuable insights. I've made necessary adjustments to my living space, ensuring a safe and comfortable environment for the potential newcomer. From acquiring essentials like a cozy bed and suitable toys to familiarizing myself with local vets and grooming services, I've taken proactive steps to ensure a seamless transition and a loving home for my future pet.",
+            "answer_3": "Regrettably, circumstances beyond my control necessitated the surrender of my previous pet, Max, to a shelter. Several years ago, a sudden relocation due to a job opportunity emerged, coupled with housing restrictions that didn't permit pets. Devastating as it was, finding Max a caring shelter was the only viable option at that challenging juncture. It was a heart-wrenching decision, and I ensured Max was placed in a reputable shelter where he'd receive the attention and care he deserved.",
+            "created_at": "2023-12-08T21:51:22+0000",
+            "updated_at": "2023-12-08T21:51:22+0000"
+        }
+    },
+    {
         "model": "application.message",
         "pk": 1,
         "fields": {
@@ -172,6 +186,16 @@
             "sender": 1,
             "message": "I'm good thanks. Your application is currently still under review.",
             "time": "2023-12-03T11:56:39+0000"
+        }
+    },
+    {
+        "model": "application.message",
+        "pk": 3,
+        "fields": {
+            "application": 2,
+            "sender": 3,
+            "message": "Hi, how are you? I would like to check in on my application for Max.",
+            "time": "2023-12-08T21:51:22+0000"
         }
     },
     {
@@ -195,6 +219,18 @@
             "model_type": "Application",
             "model_id": 1,
             "time": "2023-12-03T11:56:39+0000",
+            "read": false
+        }
+    },
+    {
+        "model": "notification.notification",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "message": "New message in application for Max",
+            "model_type": "Application",
+            "model_id": 2,
+            "time": "2023-12-08T21:51:22+0000",
             "read": false
         }
     },
